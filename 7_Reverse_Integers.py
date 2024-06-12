@@ -13,4 +13,4 @@ class Solution:
             return 0
         else:
             x = -x
-            return -(self.reverse(x))
+            return (-(self.reverse(x)))
