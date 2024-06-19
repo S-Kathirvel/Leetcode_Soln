@@ -8,6 +8,9 @@ class Solution:
             else:
                 string = str_list[i]
                 res += ''.join(l for l in string if l.isalnum())
+
+	# res = ""
+        # res += ''.join(letter for letter in s if letter.isalnum())
              
         if res.lower() == res[::-1].lower():
             return True
