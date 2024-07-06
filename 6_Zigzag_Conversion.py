@@ -10,4 +10,4 @@ class Solution:
                 direction *= -1 # if so reversing the direction so text can be added in zigzag
             k += direction # k value will revolve around 0-2 (for numRows = 3)
 
-        return ''.join(rows)
+        return ''.join(rows) 
